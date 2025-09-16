@@ -1,0 +1,8 @@
+host:
+  rpm:
+    build:
+    - xfce4-screensaver.spec
+source:
+  files:
+  - url: https://archive.xfce.org/src/apps/xfce4-screensaver/4.18/xfce4-screensaver-@VERSION@.tar.bz2
+    sha512: xfce4-screensaver-@VERSION@.tar.bz2.sha512
