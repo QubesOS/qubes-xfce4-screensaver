@@ -11,6 +11,8 @@ License:        GPL-2.0-only AND LicenseRef-Callaway-LGPLv2
 URL:            https://git.xfce.org/apps/xfce4-screensaver/
 Source0:        https://archive.xfce.org/src/apps/%{name}/%{majorver}/%{name}-%{version}.tar.bz2
 
+Patch1: 0001-manager-Use-only-one-permanent-window-as-overlay.patch
+
 BuildRequires: make
 BuildRequires:  gcc-c++
 BuildRequires:  intltool
@@ -38,7 +40,7 @@ Xfce libraries and the Xfconf configuration backend.
 
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
