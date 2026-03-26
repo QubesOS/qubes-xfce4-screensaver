@@ -12,6 +12,8 @@ URL:            https://git.xfce.org/apps/xfce4-screensaver/
 Source0:        https://archive.xfce.org/src/apps/%{name}/%{majorver}/%{name}-%{version}.tar.bz2
 
 Patch1: 0001-manager-Use-only-one-permanent-window-as-overlay.patch
+Patch2: 0002-manager-Grab-devices-on-overlay-when-recreating-wind.patch
+Patch3: 0003-manager-Fix-keyboard-leak-when-recreating-windows.patch
 
 BuildRequires: make
 BuildRequires:  gcc-c++
